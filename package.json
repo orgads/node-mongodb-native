@@ -25,12 +25,10 @@
     "email": "dbx-node@mongodb.com"
   },
   "dependencies": {
+    "@mongodb-js/saslprep": "^1.1.0",
     "bson": "^5.4.0",
     "mongodb-connection-string-url": "^2.6.0",
     "socks": "^2.7.1"
-  },
-  "optionalDependencies": {
-    "@mongodb-js/saslprep": "^1.1.0"
   },
   "peerDependencies": {
     "@aws-sdk/credential-providers": "^3.188.0",
